@@ -228,9 +228,9 @@
         ADJ {
             display-name = "System";
             bindings = <
-&bt BT_SEL 0  &kp F12  &kp F7  &kp F8      &kp F9     &mt PRINTSCREEN SYSREQ    &kp F6          &kp F7      &kp F8          &kp F9  &kp F10      &trans
+&bt BT_SEL 0  &kp F10  &kp F1  &kp F2      &kp F3     &mt PRINTSCREEN SYSREQ    &kp F6          &kp F7      &kp F8          &kp F9  &kp F10      &trans
 &bt BT_SEL 1  &kp F11  &kp F4  &kp F5      &kp F6     &kp SCROLLLOCK            &studio_unlock  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans       &trans
-&bt BT_SEL 2  &kp F10  &kp F1  &kp F2      &kp F3     &kp PAUSE_BREAK           &trans          &trans      &trans          &trans  &bootloader  &trans
+&bt BT_SEL 2  &kp F12  &kp F7  &kp F8      &kp F9     &kp PAUSE_BREAK           &trans          &trans      &trans          &trans  &bootloader  &trans
                                &kp C_MENU  &kp SPACE  &kp TAB                   &trans          &trans      &trans
             >;
         };
