@@ -184,10 +184,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp TAB    &kp Q           &kp W           &kp F         &kp P         &kp B        &kp J        &kp L            &kp U         &kp Y            &kp SQT          &kp BACKSPACE
-&kp LSHFT  &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LCTRL S   &mt LSHIFT T  &kp G        &kp M        &mt RSHFT N      &mt RCTRL E   &mt RIGHT_ALT I  &mt RIGHT_GUI O  &kp SQT
-&kp LCTRL  &kp Z           &kp X           &kp C         &kp D         &kp V        &kp K        &kp H            &kp COMMA     &kp DOT          &kp FSLH         &mo 4
-                                           &lt 5 ESCAPE  &lt 1 SPACE   &lt 6 TAB    &lt 2 ENTER  &lt 7 BACKSPACE  &lt 3 DELETE
+&kp TAB    &kp Q           &kp W           &kp F         &kp P         &kp B        &kp J        &kp L            &kp U         &kp Y            &kp SQT          &trans
+&kp LSHFT  &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LCTRL S   &mt LSHIFT T  &kp G        &kp M        &mt RSHFT N      &mt RCTRL E   &mt RIGHT_ALT I  &mt RIGHT_GUI O  &trans
+&kp LCTRL  &kp Z           &kp X           &kp C         &kp D         &kp V        &kp K        &kp H            &kp COMMA     &kp DOT          &kp FSLH         &trans
+                                           &lt 4 ESCAPE  &lt 1 SPACE   &lt 5 TAB    &lt 2 ENTER  &lt 6 BACKSPACE  &lt 3 DELETE
             >;
         };
 
@@ -235,16 +235,6 @@
             >;
         };
 
-        EXTRA {
-            display-name = "Extra";
-            bindings = <
-&trans  &trans  &trans          &trans          &trans           &msc SCRL_UP      &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans          &mmv MOVE_UP    &trans           &msc SCRL_DOWN    &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans            &trans  &trans     &trans     &trans  &trans  &trans
-                                &trans          &trans           &trans            &trans  &trans     &trans
-            >;
-        };
-
         MEDIA {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp R       &kp M             &kp H              &kp S            &kp V               &trans
@@ -268,7 +258,7 @@
 &trans  &kp LEFT_BRACKET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACKET    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp SEMICOLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp GRAVE         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSLASH        &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans        &kp NUMBER_0  &trans               &trans  &trans  &trans
+                                        &kp PERIOD    &kp NUMBER_0  &kp MINUS            &trans  &trans  &trans
             >;
         };
     };
